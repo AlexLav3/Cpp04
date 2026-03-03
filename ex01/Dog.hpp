@@ -11,5 +11,5 @@ class Dog : public Animal
     ~Dog();
     Dog(const Dog &copy);
     Dog& operator= (const Dog& other);
-    virtual void makeSound() const override;
+    virtual void makeSound() const;
 };

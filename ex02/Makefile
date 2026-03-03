@@ -1,6 +1,6 @@
 NAME = Animal
 CXX = c++
-CXXFLAGS = 
+CXXFLAGS = -Wall -Werror -Wextra -Wshadow -std=c++98
 
 SOURCES = main.cpp Animal.cpp Cat.cpp Dog.cpp Brain.cpp
 		
